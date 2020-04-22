@@ -1,0 +1,830 @@
+Initial resources:
+    R00 R01 R02 R03 R04 R05 R06 R07 R08 R09 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 
+OSS   1   3   1   1   3   1   1   1   1   7   1   1   7   1   1   1  10   1   1   1 
+[1:8869] OSS: Generating process with PID 0
+[1:8869] Master dispatching queue of size 0
+[2:14974] OSS: Generating process with PID 1
+[2:14974] Master dispatching queue of size 0
+[3:15128] OSS: Generating process with PID 2
+[3:15128] Master dispatching queue of size 0
+[4:22627] OSS: Generating process with PID 3
+[4:22627] Master dispatching queue of size 0
+[5:26257] OSS: Generating process with PID 4
+[5:26257] Master dispatching queue of size 0
+[6:32808] OSS: Generating process with PID 5
+[6:32808] Master dispatching queue of size 0
+[7:39891] OSS: Generating process with PID 6
+[7:39891] Master dispatching queue of size 0
+[8:49157] OSS: Generating process with PID 7
+[8:49157] Master dispatching queue of size 1
+[8:49157] Master granting P0 request R5=1
+[9:59045] OSS: Generating process with PID 8
+[9:59045] Master dispatching queue of size 3
+[9:59045] Master granting P1 request R10=1
+[9:59089] Master granting P0 request R7=1
+[9:59186] Master granting P2 request R11=1
+[10:68471] OSS: Generating process with PID 9
+[10:68471] Master dispatching queue of size 0
+[11:68862] OSS: Generating process with PID 10
+[11:68862] Master dispatching queue of size 0
+[12:70162] OSS: Generating process with PID 11
+[12:70162] Master dispatching queue of size 0
+[13:71500] OSS: Generating process with PID 12
+[13:71500] Master dispatching queue of size 0
+[14:72543] OSS: Generating process with PID 13
+[14:72543] Master dispatching queue of size 2
+[14:72543] Master blocking P4 for requesting R10=1
+[14:72601] Master has acknowledged Process P1 releasing R17=1
+[15:73305] OSS: Generating process with PID 14
+[15:73305] Master dispatching queue of size 5
+[15:73400] Master granting P8 request R6=1
+[15:73464] Master granting P0 request R17=1
+[15:73534] Master blocking P3 for requesting R11=1
+[15:73548] Master has acknowledged Process P2 releasing R18=1
+[16:83272] OSS: Generating process with PID 15
+[16:83272] Master dispatching queue of size 5
+[16:83412] Master has acknowledged Process P2 releasing R1=3
+[16:83416] Master has acknowledged Process P8 releasing R5=1
+[16:83471] Master granting P0 request R3=1
+[17:90220] OSS: Generating process with PID 16
+[17:90220] Master dispatching queue of size 2
+[18:97012] OSS: Generating process with PID 17
+[18:97012] Master dispatching queue of size 2
+[18:97012] Master granting P5 request R8=1
+[18:97025] Master has acknowledged Process P1 releasing R7=1
+[19:103058] OSS: Generating process with PID 18
+[19:103058] Master dispatching queue of size 0
+[20:111585] OSS: Generating process with PID 19
+[20:111585] Master dispatching queue of size 2
+[20:111585] Master blocking P9 for requesting R10=1
+[20:111586] Master blocking P2 for requesting R10=1
+[21:113165] Master dispatching queue of size 3
+[21:113206] Master granting P14 request R1=2
+[22:122053] Master dispatching queue of size 3
+[22:122168] Master granting P8 request R9=2
+[23:127012] Master dispatching queue of size 11
+[23:127113] Master has detected P3 quits
+[23:127113] Master granting P0 request R2=1
+[23:127184] Master has acknowledged Process P14 releasing R10=1
+[23:127271] Master granting P6 request R4=1
+[23:127322] Master granting P1 request R12=1
+[23:127360] Master has detected P4 quits
+[23:127360] Master granting P5 request R5=1
+[23:127457] Master blocking P12 for requesting R5=1
+[23:127477] Master granting P7 request R10=1
+[24:132539] OSS: Generating process with PID 20
+[24:132539] Master dispatching queue of size 9
+[24:132679] Master granting P16 request R18=1
+[24:132716] Master blocking P8 for requesting R3=1
+[24:132809] Master blocking P13 for requesting R10=1
+[24:132863] Master granting P17 request R9=5
+[24:132865] Master blocking P19 for requesting R9=1
+[24:132886] Master granting P10 request R4=1
+[25:140580] OSS: Generating process with PID 21
+[25:140580] Master dispatching queue of size 19
+[25:140839] Master has detected P0 quits
+[25:140839] Master has acknowledged Process P5 releasing R12=5
+[25:140920] Master granting P7 request R17=1
+[25:140956] Master granting P11 request R4=1
+[25:140999] Master granting P6 request R7=1
+[25:141021] Master has detected P1 quits
+[25:141021] Master granting P14 request R3=1
+[25:141113] Master blocking P15 for requesting R17=1
+[25:141172] Master blocking P18 for requesting R11=1
+[25:141179] Master blocking P16 for requesting R4=1
+[25:141242] Master has acknowledged Process P17 releasing R11=1
+[25:141340] Master granting P10 request R15=1
+[25:141399] Master granting P20 request R16=3
+[26:147548] OSS: Generating process with PID 22
+[26:147548] Master dispatching queue of size 15
+[26:147548] Master unblocking P9 and granting it R10=1
+[26:147641] Master unblocking P12 and granting it R5=1
+[26:147874] Master unblocking P18 and granting it R11=1
+[26:147954] Master granting P5 request R18=1
+[26:148053] Master granting P7 request R12=2
+[26:148139] Master has acknowledged Process P17 releasing R10=1
+[26:148170] Master has acknowledged Process P6 releasing R13=1
+[26:148203] Master granting P10 request R10=1
+[26:148212] Master granting P11 request R14=1
+[27:152202] OSS: Generating process with PID 23
+[27:152202] Master dispatching queue of size 8
+[27:152547] Master has acknowledged Process P9 releasing R1=1
+[27:152565] Master granting P12 request R1=1
+[28:154302] Master dispatching queue of size 10
+[28:154519] Master blocking P5 for requesting R9=2
+[28:154587] Master granting P7 request R12=2
+[28:154685] Master has acknowledged Process P18 releasing R9=1
+[28:154707] Master blocking P10 for requesting R18=1
+[29:159600] Master dispatching queue of size 18
+[29:159691] Master unblocking P19 and granting it R9=1
+[29:159933] Master has acknowledged Process P17 releasing R7=1
+[29:160012] Master blocking P9 for requesting R9=2
+[29:160047] Master blocking P12 for requesting R14=1
+[29:160101] Master blocking P21 for requesting R8=1
+[29:160143] Master granting P14 request R13=1
+[29:160161] Master has acknowledged Process P20 releasing R6=1
+[29:160187] Master granting P22 request R16=4
+[29:160224] Master blocking P6 for requesting R5=1
+[29:160261] Master granting P11 request R1=1
+[29:160354] Master granting P23 request R7=1
+[30:163261] Master dispatching queue of size 18
+[30:163790] Master has acknowledged Process P7 releasing R2=1
+[30:163865] Master blocking P18 for requesting R14=1
+[30:163944] Master granting P19 request R0=1
+[30:163985] Master has acknowledged Process P14 releasing R8=1
+[30:164044] Master granting P20 request R1=1
+[30:164077] Master blocking P22 for requesting R0=1
+[30:164146] Master blocking P11 for requesting R9=4
+[31:168994] Master dispatching queue of size 18
+[31:169329] Master unblocking P21 and granting it R8=1
+[31:169514] Master granting P17 request R2=1
+[31:169609] Master blocking P23 for requesting R8=1
+[31:169685] Master has acknowledged Process P19 releasing R11=1
+[31:169740] Master has acknowledged Process P14 releasing R14=1
+[32:179291] Master dispatching queue of size 18
+[32:179619] Master unblocking P12 and granting it R14=1
+[32:180008] Master blocking P7 for requesting R0=1
+[32:180042] Master granting P20 request R2=1
+[32:180086] Master blocking P21 for requesting R7=1
+[32:180183] Master blocking P14 for requesting R0=1
+[33:180252] Master dispatching queue of size 20
+[33:181101] Master granting P17 request R13=1
+[33:181164] Master has acknowledged Process P19 releasing R2=1
+[33:181190] Master has acknowledged Process P20 releasing R5=1
+[33:181238] Master blocking P12 for requesting R3=1
+[34:181835] Master dispatching queue of size 19
+[34:182255] Master unblocking P6 and granting it R5=1
+[34:182575] Master blocking P19 for requesting R7=1
+[34:182653] Master has acknowledged Process P20 releasing R11=1
+[35:184209] Master dispatching queue of size 19
+[35:184849] Master has acknowledged Process P6 releasing R11=1
+[35:184893] Master blocking P20 for requesting R8=1
+[36:192924] Master dispatching queue of size 19
+[36:193682] Master has acknowledged Process P6 releasing R3=1
+[37:197603] Master dispatching queue of size 18
+[37:197640] Master unblocking P8 and granting it R3=1
+[38:200027] Master dispatching queue of size 19
+[38:200833] Master has detected P6 quits
+[38:200833] Master has detected P8 quits
+[39:205563] OSS: Generating process with PID 24
+[39:205563] Master dispatching queue of size 17
+[39:205651] Master unblocking P16 and granting it R4=1
+[39:205690] Master unblocking P5 and granting it R9=2
+[39:206092] Master unblocking P21 and granting it R7=1
+[40:216214] OSS: Generating process with PID 25
+[40:216214] Master dispatching queue of size 16
+[40:216829] Master has detected P16 quits
+[40:216829] Master blocking P21 for requesting R14=1
+[41:218651] OSS: Generating process with PID 26
+[41:218651] Master dispatching queue of size 15
+[41:218736] Master unblocking P10 and granting it R18=1
+[42:228552] Master dispatching queue of size 14
+[43:232046] Master dispatching queue of size 14
+[44:240032] Master dispatching queue of size 1
+[44:240032] Master has detected P10 quits
+[45:245380] OSS: Generating process with PID 27
+[45:245380] Master dispatching queue of size 1
+[45:245380] Master has detected P12 quits
+[46:250002] OSS: Generating process with PID 28
+[46:250002] Master dispatching queue of size 3
+[46:250002] Master has detected P9 quits
+[46:250002] Master has detected P2 quits
+[46:250002] Master granting P24 request R10=1
+[47:252010] OSS: Generating process with PID 29
+[47:252010] Master dispatching queue of size 2
+[47:252010] Master has detected P11 quits
+[47:252010] Master has detected P19 quits
+[48:256586] OSS: Generating process with PID 30
+[48:256586] Master dispatching queue of size 4
+[48:256586] Master has detected P22 quits
+[48:256586] Master blocking P26 for requesting R2=1
+[48:256632] Master granting P24 request R4=1
+[48:256698] Master has detected P14 quits
+[49:259105] OSS: Generating process with PID 31
+[49:259105] Master dispatching queue of size 3
+[49:259190] Master has detected P13 quits
+[49:259190] Master has detected P20 quits
+[50:263340] OSS: Generating process with PID 32
+[50:263340] Master dispatching queue of size 2
+[50:263340] Master unblocking P26 and granting it R2=1
+[50:263367] Master has detected P21 quits
+[51:269442] OSS: Generating process with PID 33
+[51:269442] Master dispatching queue of size 0
+[52:278170] OSS: Generating process with PID 34
+[52:278170] Master dispatching queue of size 0
+[53:280672] OSS: Generating process with PID 35
+[53:280672] Master dispatching queue of size 3
+[53:280672] Master blocking P25 for requesting R17=1
+[53:280700] Master granting P24 request R1=3
+[53:280770] Master blocking P27 for requesting R9=6
+[54:286229] OSS: Generating process with PID 36
+[54:286229] Master dispatching queue of size 2
+[55:293445] OSS: Generating process with PID 37
+[55:293445] Master dispatching queue of size 4
+[55:293551] Master granting P32 request R6=1
+[55:293558] Master has acknowledged Process P26 releasing R8=1
+[56:300998] Master dispatching queue of size 2
+[57:310970] Master dispatching queue of size 2
+[58:316326] Master dispatching queue of size 0
+[59:317018] Master dispatching queue of size 0
+[60:324280] Master dispatching queue of size 0
+[61:327866] Master dispatching queue of size 0
+[62:329486] Master dispatching queue of size 0
+[63:336547] Master dispatching queue of size 0
+[64:339951] Master dispatching queue of size 2
+[64:339951] Master granting P30 request R0=1
+[64:340030] Master has detected P24 quits
+[65:345576] OSS: Generating process with PID 38
+[65:345576] Master dispatching queue of size 4
+[65:345576] Master has detected P25 quits
+[65:345576] Master granting P28 request R1=1
+[65:345630] Master has acknowledged Process P30 releasing R11=1
+[65:345637] Master has detected P27 quits
+[66:353610] OSS: Generating process with PID 39
+[66:353610] Master dispatching queue of size 4
+[66:353610] Master granting P28 request R7=1
+[66:353645] Master blocking P33 for requesting R0=1
+[66:353706] Master has acknowledged Process P32 releasing R9=1
+[66:353707] Master has detected P26 quits
+[67:354112] OSS: Generating process with PID 40
+[67:354112] Master dispatching queue of size 3
+[67:354196] Master has acknowledged Process P28 releasing R13=1
+[67:354285] Master granting P32 request R2=1
+[68:361137] OSS: Generating process with PID 41
+[68:361137] Master dispatching queue of size 1
+[69:362540] Master dispatching queue of size 1
+[70:366350] Master dispatching queue of size 0
+[71:374652] Master dispatching queue of size 0
+[72:381405] Master dispatching queue of size 0
+[73:384231] Master dispatching queue of size 2
+[73:384231] Master granting P31 request R15=1
+[73:384249] Master has detected P5 quits
+[74:390940] OSS: Generating process with PID 42
+[74:390940] Master dispatching queue of size 3
+[74:390940] Master granting P30 request R1=1
+[74:391035] Master has detected P18 quits
+[74:391035] Master has detected P7 quits
+[75:399506] OSS: Generating process with PID 43
+[75:399506] Master dispatching queue of size 8
+[75:399506] Master granting P29 request R4=2
+[75:399536] Master has detected P32 quits
+[75:399536] Master has detected P33 quits
+[75:399536] Master blocking P34 for requesting R0=1
+[75:399575] Master has acknowledged Process P28 releasing R1=1
+[75:399660] Master has detected P15 quits
+[75:399660] Master has detected P17 quits
+[75:399660] Master has detected P23 quits
+[76:407928] OSS: Generating process with PID 44
+[76:407928] Master dispatching queue of size 14
+[76:407988] Master granting P30 request R2=1
+[76:408034] Master has acknowledged Process P31 releasing R17=1
+[76:408106] Master granting P35 request R16=3
+[76:408197] Master granting P37 request R10=1
+[76:408241] Master blocking P36 for requesting R2=1
+[76:408320] Master granting P41 request R18=1
+[76:408418] Master granting P38 request R8=1
+[76:408435] Master blocking P42 for requesting R7=1
+[76:408501] Master granting P40 request R5=1
+[76:408561] Master blocking P39 for requesting R10=1
+[76:408632] Master blocking P28 for requesting R5=1
+[76:408703] Master has acknowledged Process P29 releasing R4=1
+[76:408799] Master granting P43 request R1=2
+[77:416387] OSS: Generating process with PID 45
+[77:416387] Master dispatching queue of size 8
+[77:416589] Master blocking P35 for requesting R0=1
+[77:416627] Master has acknowledged Process P37 releasing R3=1
+[77:416679] Master granting P38 request R11=1
+[78:423228] OSS: Generating process with PID 46
+[78:423228] Master dispatching queue of size 8
+[78:423558] Master granting P37 request R9=3
+[78:423652] Master granting P38 request R13=1
+[79:426255] OSS: Generating process with PID 47
+[79:426255] Master dispatching queue of size 8
+[79:426572] Master blocking P37 for requesting R7=1
+[79:426635] Master has acknowledged Process P38 releasing R0=1
+[80:430629] OSS: Generating process with PID 48
+[80:430629] Master dispatching queue of size 11
+[80:430629] Master unblocking P34 and granting it R0=1
+[80:430997] Master blocking P44 for requesting R10=1
+[80:431031] Master blocking P29 for requesting R0=1
+[80:431071] Master granting P40 request R11=1
+[80:431164] Master has acknowledged Process P43 releasing R6=1
+[81:436784] OSS: Generating process with PID 49
+[81:436784] Master dispatching queue of size 14
+[81:437094] Master has acknowledged Process P40 releasing R6=1
+[81:437135] Master granting P43 request R13=1
+[81:437201] Master blocking P31 for requesting R1=3
+[81:437274] Master has acknowledged Process P41 releasing R9=6
+[81:437299] Master blocking P45 for requesting R18=1
+[81:437325] Master has acknowledged Process P34 releasing R1=1
+[82:439555] Master dispatching queue of size 12
+[82:440058] Master has acknowledged Process P40 releasing R13=1
+[82:440105] Master has acknowledged Process P43 releasing R17=1
+[83:446804] Master dispatching queue of size 13
+[83:447295] Master has acknowledged Process P41 releasing R1=2
+[83:447302] Master blocking P43 for requesting R2=1
+[83:447337] Master has acknowledged Process P40 releasing R7=1
+[84:454066] Master dispatching queue of size 13
+[84:454126] Master unblocking P42 and granting it R7=1
+[84:454613] Master unblocking P31 and granting it R1=3
+[84:454659] Master granting P41 request R4=1
+[84:454671] Master blocking P40 for requesting R18=1
+[85:456974] Master dispatching queue of size 12
+[85:457508] Master granting P31 request R3=1
+[85:457566] Master has acknowledged Process P41 releasing R12=3
+[86:459078] Master dispatching queue of size 12
+[86:459618] Master has acknowledged Process P31 releasing R2=1
+[86:459655] Master granting P41 request R17=1
+[87:468190] Master dispatching queue of size 11
+[87:468190] Master unblocking P36 and granting it R2=1
+[87:468819] Master has detected P31 quits
+[88:473618] OSS: Generating process with PID 50
+[88:473618] Master dispatching queue of size 12
+[88:474092] Master blocking P41 for requesting R7=1
+[88:474153] Master granting P47 request R4=1
+[88:474172] Master blocking P38 for requesting R10=1
+[89:475556] Master dispatching queue of size 20
+[89:476090] Master has detected P30 quits
+[89:476090] Master granting P46 request R0=1
+[89:476108] Master blocking P34 for requesting R7=1
+[89:476180] Master granting P42 request R1=3
+[89:476185] Master blocking P36 for requesting R8=1
+[89:476188] Master blocking P49 for requesting R18=1
+[89:476259] Master granting P47 request R9=2
+[89:476299] Master granting P48 request R12=2
+[89:476301] Master granting P50 request R16=3
+[90:482052] OSS: Generating process with PID 51
+[90:482052] Master dispatching queue of size 19
+[90:482941] Master blocking P46 for requesting R11=1
+[90:483014] Master blocking P47 for requesting R0=1
+[90:483020] Master blocking P42 for requesting R11=1
+[90:483116] Master has acknowledged Process P48 releasing R1=2
+[90:483184] Master blocking P50 for requesting R10=1
+[91:486254] Master dispatching queue of size 19
+[91:487202] Master has acknowledged Process P48 releasing R0=1
+[92:491712] Master dispatching queue of size 19
+[92:491803] Master unblocking P35 and granting it R0=1
+[92:492551] Master has acknowledged Process P48 releasing R9=5
+[93:496662] Master dispatching queue of size 19
+[93:497399] Master has detected P35 quits
+[93:497399] Master blocking P48 for requesting R11=1
+[94:503006] OSS: Generating process with PID 52
+[94:503006] Master dispatching queue of size 7
+[94:503006] Master unblocking P29 and granting it R0=1
+[94:503075] Master has detected P41 quits
+[94:503075] Master has detected P42 quits
+[94:503075] Master has detected P43 quits
+[94:503075] Master has detected P46 quits
+[94:503075] Master has detected P40 quits
+[94:503075] Master has detected P36 quits
+[95:509711] OSS: Generating process with PID 53
+[95:509711] Master dispatching queue of size 3
+[95:509711] Master has detected P44 quits
+[95:509711] Master has detected P34 quits
+[95:509711] Master has detected P29 quits
+[96:510872] OSS: Generating process with PID 54
+[96:510872] Master dispatching queue of size 2
+[96:510872] Master has detected P28 quits
+[96:510872] Master has detected P39 quits
+[97:519510] OSS: Generating process with PID 55
+[97:519510] Master dispatching queue of size 9
+[97:519510] Master has detected P48 quits
+[97:519510] Master has detected P45 quits
+[97:519510] Master granting P51 request R6=1
+[97:519606] Master has detected P38 quits
+[97:519606] Master has detected P37 quits
+[97:519606] Master has detected P49 quits
+[97:519606] Master has detected P47 quits
+[97:519606] Master has detected P50 quits
+[97:519606] Master granting P53 request R10=1
+[98:527810] OSS: Generating process with PID 56
+[98:527810] Master dispatching queue of size 4
+[98:527810] Master granting P52 request R14=1
+[98:527863] Master granting P54 request R18=1
+[98:527902] Master granting P51 request R7=1
+[98:527916] Master granting P53 request R4=1
+[99:528824] OSS: Generating process with PID 57
+[99:528824] Master dispatching queue of size 2
+[99:528824] Master has acknowledged Process P53 releasing R12=1
+[99:528887] Master granting P54 request R12=3
+[100:530289] OSS: Generating process with PID 58
+[100:530289] Master dispatching queue of size 0
+[101:534569] OSS: Generating process with PID 59
+[101:534569] Master dispatching queue of size 0
+[102:535450] OSS: Generating process with PID 60
+[102:535450] Master dispatching queue of size 0
+[103:537844] OSS: Generating process with PID 61
+[103:537844] Master dispatching queue of size 4
+[103:537844] Master granting P55 request R3=1
+[103:537908] Master has acknowledged Process P51 releasing R0=1
+[103:537916] Master granting P56 request R16=2
+[103:537983] Master granting P53 request R9=1
+[104:542580] OSS: Generating process with PID 62
+[104:542580] Master dispatching queue of size 6
+[104:542580] Master blocking P56 for requesting R14=1
+[104:542665] Master has acknowledged Process P53 releasing R0=1
+[104:542703] Master granting P57 request R9=2
+[104:542714] Master blocking P55 for requesting R14=1
+[104:542787] Master has acknowledged Process P54 releasing R16=2
+[104:542881] Master granting P51 request R2=1
+[105:543428] OSS: Generating process with PID 63
+[105:543428] Master dispatching queue of size 3
+[105:543546] Master granting P51 request R4=2
+[106:553175] OSS: Generating process with PID 64
+[106:553175] Master dispatching queue of size 2
+[107:561745] OSS: Generating process with PID 65
+[107:561745] Master dispatching queue of size 2
+[108:570740] OSS: Generating process with PID 66
+[108:570740] Master dispatching queue of size 3
+[108:570740] Master granting P60 request R8=1
+[108:570801] Master blocking P53 for requesting R14=1
+[108:570878] Master has detected P56 quits
+[109:580557] OSS: Generating process with PID 67
+[109:580557] Master dispatching queue of size 4
+[109:580581] Master granting P59 request R9=3
+[109:580621] Master has acknowledged Process P54 releasing R0=1
+[109:580692] Master has acknowledged Process P57 releasing R7=1
+[110:581469] OSS: Generating process with PID 68
+[110:581469] Master dispatching queue of size 7
+[110:581534] Master granting P59 request R16=6
+[110:581555] Master blocking P54 for requesting R8=1
+[110:581636] Master granting P57 request R15=1
+[110:581720] Master granting P63 request R1=1
+[110:581771] Master has acknowledged Process P51 releasing R11=1
+[110:581771] Master has detected P55 quits
+[111:587492] OSS: Generating process with PID 69
+[111:587492] Master dispatching queue of size 4
+[111:587546] Master has detected P51 quits
+[111:587546] Master blocking P63 for requesting R14=1
+[112:587681] OSS: Generating process with PID 70
+[112:587681] Master dispatching queue of size 0
+[113:595151] OSS: Generating process with PID 71
+[113:595151] Master dispatching queue of size 2
+[113:595151] Master granting P61 request R6=1
+[113:595187] Master has detected P53 quits
+[114:597366] OSS: Generating process with PID 72
+[114:597366] Master dispatching queue of size 0
+[115:606064] OSS: Generating process with PID 73
+[115:606064] Master dispatching queue of size 4
+[115:606064] Master granting P67 request R13=1
+[115:606125] Master blocking P59 for requesting R15=1
+[115:606208] Master has acknowledged Process P57 releasing R1=1
+[115:606224] Master has detected P54 quits
+[116:611610] OSS: Generating process with PID 74
+[116:611610] Master dispatching queue of size 3
+[116:611624] Master granting P64 request R3=1
+[116:611639] Master has detected P63 quits
+[117:617503] OSS: Generating process with PID 75
+[117:617503] Master dispatching queue of size 2
+[117:617539] Master granting P64 request R17=1
+[118:618508] OSS: Generating process with PID 76
+[118:618508] Master dispatching queue of size 5
+[118:618576] Master granting P62 request R0=1
+[118:618580] Master has acknowledged Process P60 releasing R10=1
+[118:618613] Master has acknowledged Process P61 releasing R16=1
+[118:618652] Master has acknowledged Process P64 releasing R8=1
+[119:626567] Master dispatching queue of size 1
+[120:631805] Master dispatching queue of size 0
+[121:635393] Master dispatching queue of size 1
+[121:635393] Master blocking P62 for requesting R14=1
+[122:643318] Master dispatching queue of size 3
+[122:643318] Master blocking P60 for requesting R6=1
+[122:643406] Master blocking P61 for requesting R0=1
+[122:643467] Master has detected P62 quits
+[123:651246] OSS: Generating process with PID 77
+[123:651246] Master dispatching queue of size 5
+[123:651298] Master unblocking P61 and granting it R0=1
+[123:651306] Master blocking P68 for requesting R0=1
+[123:651374] Master blocking P67 for requesting R6=1
+[123:651449] Master has detected P57 quits
+[124:657193] OSS: Generating process with PID 78
+[124:657193] Master dispatching queue of size 4
+[124:657374] Master has detected P59 quits
+[125:665556] OSS: Generating process with PID 79
+[125:665556] Master dispatching queue of size 3
+[126:670550] Master dispatching queue of size 1
+[126:670550] Master blocking P71 for requesting R13=1
+[127:670793] Master dispatching queue of size 2
+[127:670831] Master blocking P64 for requesting R14=1
+[128:672535] Master dispatching queue of size 0
+[129:677077] Master dispatching queue of size 0
+[130:683362] Master dispatching queue of size 0
+[131:690205] Master dispatching queue of size 0
+[132:691760] Master dispatching queue of size 1
+[132:691760] Master granting P70 request R8=1
+[133:697299] Master dispatching queue of size 1
+[133:697299] Master has detected P61 quits
+[134:704088] OSS: Generating process with PID 80
+[134:704088] Master dispatching queue of size 2
+[134:704088] Master has detected P60 quits
+[134:704088] Master granting P70 request R9=1
+[135:706407] OSS: Generating process with PID 81
+[135:706407] Master dispatching queue of size 1
+[135:706407] Master granting P73 request R10=1
+[136:708002] Master dispatching queue of size 1
+[136:708002] Master has detected P67 quits
+[137:716403] OSS: Generating process with PID 82
+[137:716403] Master dispatching queue of size 2
+[137:716403] Master has detected P68 quits
+[137:716403] Master has acknowledged Process P73 releasing R5=1
+[138:723382] OSS: Generating process with PID 83
+[138:723382] Master dispatching queue of size 2
+[138:723382] Master granting P74 request R0=1
+[138:723391] Master has detected P64 quits
+[139:726417] OSS: Generating process with PID 84
+[139:726417] Master dispatching queue of size 0
+[140:736265] Master dispatching queue of size 0
+[141:737471] Master dispatching queue of size 0
+[142:746896] Master dispatching queue of size 2
+[142:746896] Master blocking P76 for requesting R14=1
+[142:746969] Master granting P70 request R15=1
+[143:750943] Master dispatching queue of size 1
+[144:758821] Master dispatching queue of size 0
+[145:767528] Master dispatching queue of size 0
+[146:775657] Master dispatching queue of size 0
+[147:785327] Master dispatching queue of size 0
+[148:790571] Master dispatching queue of size 0
+[149:790890] Master dispatching queue of size 0
+[150:799713] Master dispatching queue of size 0
+[151:802961] Master dispatching queue of size 1
+[151:802961] Master granting P75 request R5=1
+[152:808130] Master dispatching queue of size 2
+[152:808130] Master has detected P73 quits
+[152:808130] Master granting P69 request R9=4
+[153:814639] OSS: Generating process with PID 85
+[153:814639] Master dispatching queue of size 0
+[154:816591] Master dispatching queue of size 0
+[155:818482] Master dispatching queue of size 0
+[156:828040] Master dispatching queue of size 0
+[157:834072] Master dispatching queue of size 0
+[158:838203] Master dispatching queue of size 1
+[158:838203] Master granting P77 request R6=1
+[159:842241] Master dispatching queue of size 1
+[159:842241] Master has detected P70 quits
+[160:844773] OSS: Generating process with PID 86
+[160:844773] Master dispatching queue of size 0
+[161:850517] Master dispatching queue of size 0
+[162:851443] Master dispatching queue of size 0
+[163:859436] Master dispatching queue of size 0
+[164:864558] Master dispatching queue of size 2
+[164:864558] Master granting P72 request R4=1
+[164:864584] Master blocking P69 for requesting R5=1
+[165:869183] Master dispatching queue of size 2
+[165:869282] Master has detected P71 quits
+[166:876649] OSS: Generating process with PID 87
+[166:876649] Master dispatching queue of size 3
+[166:876649] Master has detected P69 quits
+[166:876649] Master blocking P79 for requesting R0=1
+[166:876708] Master has detected P74 quits
+[167:884927] OSS: Generating process with PID 88
+[167:884927] Master dispatching queue of size 2
+[167:884927] Master unblocking P79 and granting it R0=1
+[167:885005] Master blocking P72 for requesting R0=1
+[168:887724] OSS: Generating process with PID 89
+[168:887724] Master dispatching queue of size 3
+[168:887772] Master granting P78 request R11=1
+[168:887835] Master has detected P76 quits
+[169:890854] OSS: Generating process with PID 90
+[169:890854] Master dispatching queue of size 3
+[169:890877] Master has acknowledged Process P77 releasing R8=1
+[169:890940] Master granting P78 request R9=1
+[170:892504] Master dispatching queue of size 1
+[171:893208] Master dispatching queue of size 1
+[172:899991] Master dispatching queue of size 0
+[173:900199] Master dispatching queue of size 2
+[173:900199] Master granting P82 request R2=1
+[173:900268] Master has detected P75 quits
+[174:901146] OSS: Generating process with PID 91
+[174:901146] Master dispatching queue of size 2
+[174:901146] Master granting P79 request R17=1
+[174:901191] Master has acknowledged Process P82 releasing R0=1
+[175:910975] Master dispatching queue of size 2
+[175:910975] Master granting P84 request R5=1
+[175:911064] Master has detected P72 quits
+[176:911764] OSS: Generating process with PID 92
+[176:911764] Master dispatching queue of size 2
+[176:911764] Master has acknowledged Process P79 releasing R14=1
+[176:911819] Master has detected P52 quits
+[177:919831] OSS: Generating process with PID 93
+[177:919831] Master dispatching queue of size 1
+[177:919831] Master granting P82 request R10=1
+[178:923164] Master dispatching queue of size 4
+[178:923164] Master blocking P81 for requesting R10=1
+[178:923176] Master has acknowledged Process P79 releasing R9=3
+[178:923253] Master has detected P77 quits
+[178:923253] Master has acknowledged Process P78 releasing R16=5
+[179:923402] OSS: Generating process with PID 94
+[179:923402] Master dispatching queue of size 10
+[179:923498] Master granting P83 request R7=1
+[179:923502] Master granting P86 request R0=1
+[179:923544] Master granting P66 request R3=1
+[179:923640] Master has acknowledged Process P82 releasing R15=1
+[179:923644] Master blocking P65 for requesting R0=1
+[179:923701] Master blocking P88 for requesting R10=1
+[179:923768] Master granting P85 request R12=1
+[179:923796] Master granting P84 request R1=2
+[179:923817] Master blocking P87 for requesting R0=1
+[180:925129] Master dispatching queue of size 20
+[180:925277] Master blocking P79 for requesting R3=1
+[180:925286] Master granting P58 request R18=1
+[180:925307] Master blocking P80 for requesting R5=1
+[180:925360] Master blocking P78 for requesting R2=1
+[180:925415] Master blocking P89 for requesting R3=1
+[180:925510] Master granting P91 request R6=1
+[180:925577] Master blocking P93 for requesting R17=1
+[180:925673] Master blocking P90 for requesting R0=1
+[180:925768] Master granting P92 request R13=1
+[180:925791] Master blocking P83 for requesting R17=1
+[180:925851] Master blocking P86 for requesting R6=1
+[180:925872] Master blocking P82 for requesting R3=1
+[180:925954] Master blocking P66 for requesting R0=1
+[180:926026] Master blocking P85 for requesting R0=1
+[180:926125] Master has acknowledged Process P84 releasing R3=1
+[180:926133] Master blocking P94 for requesting R7=1
+[181:927776] Master dispatching queue of size 20
+[181:928046] Master unblocking P79 and granting it R3=1
+[181:928809] Master has acknowledged Process P58 releasing R17=1
+[181:928835] Master blocking P91 for requesting R2=1
+[181:928916] Master has acknowledged Process P84 releasing R18=1
+[181:928998] Master granting P92 request R1=1
+[182:929222] Master dispatching queue of size 19
+[182:929481] Master unblocking P93 and granting it R17=1
+[182:929850] Master blocking P58 for requesting R1=1
+[182:929898] Master has acknowledged Process P84 releasing R11=1
+[182:929920] Master blocking P92 for requesting R7=1
+[183:932660] Master dispatching queue of size 18
+[183:933616] Master has acknowledged Process P84 releasing R10=1
+[184:940156] Master dispatching queue of size 19
+[184:940156] Master unblocking P81 and granting it R10=1
+[184:940931] Master has acknowledged Process P84 releasing R0=1
+[184:940972] Master has detected P79 quits
+[185:943894] OSS: Generating process with PID 95
+[185:943894] Master dispatching queue of size 18
+[185:943894] Master unblocking P65 and granting it R0=1
+[185:943945] Master unblocking P87 and granting it R0=1
+[185:944101] Master unblocking P89 and granting it R3=1
+[185:944248] Master unblocking P83 and granting it R17=1
+[185:944743] Master blocking P81 for requesting R17=1
+[185:944774] Master has acknowledged Process P84 releasing R7=1
+[186:947999] Master dispatching queue of size 14
+[186:948439] Master unblocking P94 and granting it R7=1
+[186:948638] Master has acknowledged Process P83 releasing R14=1
+[187:952462] Master dispatching queue of size 18
+[187:952960] Master has acknowledged Process P65 releasing R5=1
+[187:953051] Master blocking P87 for requesting R6=1
+[187:953084] Master has acknowledged Process P84 releasing R17=1
+[187:953097] Master blocking P89 for requesting R1=1
+[187:953179] Master has acknowledged Process P94 releasing R15=1
+[187:953200] Master granting P83 request R5=1
+[188:962842] Master dispatching queue of size 17
+[188:963432] Master unblocking P81 and granting it R17=1
+[188:963609] Master has acknowledged Process P93 releasing R2=1
+[188:963631] Master granting P84 request R15=1
+[188:963710] Master has acknowledged Process P94 releasing R0=1
+[189:964932] Master dispatching queue of size 17
+[189:965020] Master unblocking P78 and granting it R2=1
+[189:965113] Master unblocking P90 and granting it R0=1
+[189:965584] Master has acknowledged Process P65 releasing R6=1
+[189:965602] Master granting P83 request R4=1
+[189:965618] Master has acknowledged Process P84 releasing R14=1
+[189:965691] Master blocking P94 for requesting R10=1
+[190:970912] Master dispatching queue of size 16
+[190:971000] Master unblocking P86 and granting it R6=1
+[190:971590] Master has acknowledged Process P93 releasing R13=1
+[190:971678] Master granting P90 request R15=1
+[190:971746] Master blocking P83 for requesting R2=1
+[190:971757] Master has detected P84 quits
+[191:976038] OSS: Generating process with PID 96
+[191:976038] Master dispatching queue of size 18
+[191:976097] Master unblocking P80 and granting it R5=1
+[191:976437] Master unblocking P58 and granting it R1=1
+[191:976510] Master unblocking P89 and granting it R1=1
+[191:976695] Master has acknowledged Process P65 releasing R16=10
+[191:976757] Master granting P95 request R14=1
+[191:976797] Master granting P81 request R13=1
+[191:976827] Master has detected P78 quits
+[191:976827] Master granting P90 request R9=5
+[191:976896] Master blocking P86 for requesting R18=1
+[192:984167] OSS: Generating process with PID 97
+[192:984167] Master dispatching queue of size 14
+[192:984389] Master unblocking P91 and granting it R2=1
+[192:984684] Master granting P80 request R14=1
+[192:984750] Master has acknowledged Process P58 releasing R3=1
+[192:984762] Master granting P89 request R9=1
+[192:984812] Master blocking P90 for requesting R13=1
+[193:985080] Master dispatching queue of size 13
+[193:985526] Master has acknowledged Process P89 releasing R15=1
+[193:985565] Master blocking P91 for requesting R14=1
+[193:985644] Master has acknowledged Process P58 releasing R13=1
+[194:994720] Master dispatching queue of size 12
+[194:995117] Master unblocking P90 and granting it R13=1
+[194:995138] Master has detected P58 quits
+[195:1000775] OSS: Generating process with PID 98
+[195:1000775] Master dispatching queue of size 10
+[195:1001197] Master unblocking P86 and granting it R18=1
+[196:1009957] Master dispatching queue of size 9
+[197:1016308] Master dispatching queue of size 9
+[198:1023511] Master dispatching queue of size 0
+[199:1025281] Master dispatching queue of size 0
+[200:1030284] Master dispatching queue of size 0
+[201:1039091] Master dispatching queue of size 0
+[202:1039312] Master dispatching queue of size 1
+[202:1039312] Master blocking P96 for requesting R6=1
+[203:1044891] Master dispatching queue of size 2
+[203:1044987] Master has detected P85 quits
+[204:1053157] OSS: Generating process with PID 99
+[204:1053157] Master dispatching queue of size 3
+[204:1053157] Master has detected P88 quits
+[204:1053157] Master has detected P81 quits
+[204:1053157] Master has detected P86 quits
+[205:1061496] Master dispatching queue of size 17
+[205:1061496] Master has detected P87 quits
+[205:1061496] Master has detected P65 quits
+[205:1061496] Master has detected P93 quits
+[205:1061496] Master granting P97 request R15=1
+[205:1061504] Master has detected P83 quits
+[205:1061504] Master has detected P89 quits
+[205:1061504] Master has detected P90 quits
+[205:1061504] Master blocking P98 for requesting R5=1
+[205:1061589] Master has detected P80 quits
+[205:1061589] Master has detected P91 quits
+[205:1061589] Master granting P95 request R9=5
+[205:1061624] Master has detected P82 quits
+[205:1061624] Master has detected P96 quits
+[205:1061624] Master has detected P92 quits
+[205:1061624] Master has detected P66 quits
+[205:1061624] Master has detected P94 quits
+[205:1061624] Master granting P99 request R0=1
+[206:1064156] Master dispatching queue of size 4
+[206:1064156] Master unblocking P98 and granting it R5=1
+[206:1064220] Master granting P97 request R7=1
+[206:1064293] Master has acknowledged Process P95 releasing R3=1
+[206:1064365] Master has acknowledged Process P99 releasing R1=2
+[207:1070988] Master dispatching queue of size 4
+[207:1070988] Master blocking P98 for requesting R0=1
+[207:1071001] Master has acknowledged Process P97 releasing R18=1
+[207:1071076] Master has detected P95 quits
+[207:1071076] Master has acknowledged Process P99 releasing R2=1
+[208:1073956] Master dispatching queue of size 3
+[208:1073962] Master has acknowledged Process P97 releasing R0=1
+[208:1074000] Master has acknowledged Process P99 releasing R12=4
+[209:1076353] Master dispatching queue of size 3
+[209:1076353] Master unblocking P98 and granting it R0=1
+[209:1076373] Master has acknowledged Process P97 releasing R8=1
+[209:1076468] Master has acknowledged Process P99 releasing R9=2
+[210:1077787] Master dispatching queue of size 3
+[210:1077787] Master granting P98 request R1=1
+[210:1077804] Master has acknowledged Process P97 releasing R1=1
+[210:1077887] Master has acknowledged Process P99 releasing R17=1
+[211:1085876] Master dispatching queue of size 3
+[211:1085876] Master granting P98 request R17=1
+[211:1085936] Master granting P97 request R12=1
+[211:1085937] Master granting P99 request R3=1
+[212:1094357] Master dispatching queue of size 3
+[212:1094357] Master granting P98 request R12=2
+[212:1094397] Master granting P97 request R6=1
+[212:1094444] Master granting P99 request R14=1
+[213:1097838] Master dispatching queue of size 3
+[213:1097838] Master has acknowledged Process P98 releasing R13=1
+[213:1097882] Master has acknowledged Process P97 releasing R3=1
+[213:1097888] Master granting P99 request R10=1
+[214:1102298] Master dispatching queue of size 3
+[214:1102298] Master granting P98 request R12=2
+[214:1102376] Master has acknowledged Process P97 releasing R16=2
+[214:1102382] Master has acknowledged Process P99 releasing R8=1
+[215:1109004] Master dispatching queue of size 3
+[215:1109004] Master has acknowledged Process P98 releasing R18=1
+[215:1109037] Master has acknowledged Process P97 releasing R2=1
+[215:1109098] Master granting P99 request R9=1
+[216:1110132] Master dispatching queue of size 3
+[216:1110132] Master has acknowledged Process P98 releasing R15=1
+[216:1110183] Master granting P97 request R1=1
+[216:1110275] Master has acknowledged Process P99 releasing R9=1
+[217:1119894] Master dispatching queue of size 3
+[217:1119894] Master granting P98 request R8=1
+[217:1119981] Master has acknowledged Process P97 releasing R11=1
+[217:1120008] Master has acknowledged Process P99 releasing R15=1
+[218:1123628] Master dispatching queue of size 3
+[218:1123628] Master granting P98 request R2=1
+[218:1123690] Master blocking P99 for requesting R5=1
+[218:1123753] Master blocking P97 for requesting R10=1
+[219:1131621] Master dispatching queue of size 3
+[219:1131722] Master has detected P98 quits
+[220:1137926] Master dispatching queue of size 2
+[220:1137926] Master unblocking P99 and granting it R5=1
+[221:1142089] Master dispatching queue of size 2
+[221:1142125] Master has detected P99 quits
+[222:1145153] Master dispatching queue of size 1
+[222:1145153] Master unblocking P97 and granting it R10=1
+[223:1149062] Master dispatching queue of size 1
+[223:1149062] Master has detected P97 quits
+Runtime: 223:1149062
+Child count: 100/100
+RECEIVE count: 0
+RETURN count: 103
+ALLOW count: 187
+DELAY count: 104
+DENY count: 61
+Deadlocks: 16
+Kills: 61
+Kills Average: 3.812500
