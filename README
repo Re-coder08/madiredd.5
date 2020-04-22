@@ -1,4 +1,8 @@
+to compile use make command 
+to execute use ./oss command 
+and we can see the output in output.txt file
 
+ 
 Users send their resource request to OSS through a message queue. OSS collects a bunch of messages,
 and dispatches them.
 
@@ -6,3 +10,7 @@ For our deadlock detection we use the Bankers algorithm, to detech if current re
 If such a situation is found, we select the user with highest number of resources, and terminate it.
 
 Detection is executed, if we can't dispatch a process.
+for version control:
+git: /classes/OS/madiredd/madiredd.5/log
+
+
